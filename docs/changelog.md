@@ -4,6 +4,27 @@ tocMaxDepth: 2
 
 # OpenAPI CLI changelog
 
+## 1.0.0-beta-93 (2022-04-05)
+
+### Fixes
+
+- Resolved an issue with the `push` command skipping dependencies.
+
+---
+
+## 1.0.0-beta-92 (2022-04-04)
+
+### Features
+
+- Introduced [assertions](./resources/rules/assertions.md) - a new, powerful lint feature, which helps you enforce API design standards without coding custom rules.
+- The `push` command supports a new `--skip-decorator` option.
+
+### Fixes
+
+- Resolved an issue with `openapi preview-docs` failing during authorization.
+
+---
+
 ## 1.0.0-beta-91 (2022-03-29)
 
 ### Features
